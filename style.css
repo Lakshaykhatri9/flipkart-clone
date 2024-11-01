@@ -1,0 +1,17 @@
+.navbar{
+    position: absolute;
+    z-index: 100;
+    left: -100%;
+    transition: 0.7s ease;
+    top: 0;
+}
+
+.navbar-show{
+    left: 0;
+    transition: 0.5s ease;
+}
+
+.login-div:hover .fa-angle-up{
+    transform: rotate(180deg);
+    transition: 0.199s ease;
+}
